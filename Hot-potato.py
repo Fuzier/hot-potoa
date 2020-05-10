@@ -35,3 +35,5 @@ async def поймал(ctx):
     os.execl(sys.executable, sys.executable, *sys.argv) 
     
 token = os.environ.get('BOT_TOKEN')
+
+Bot.run(str(token))
