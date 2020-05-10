@@ -34,4 +34,4 @@ async def поймал(ctx):
     await channel.send("Молодец! Ты продолжаешь учавствовать в игре :)")
     os.execl(sys.executable, sys.executable, *sys.argv) 
     
-Bot.run('NzA3OTQ1NTY2NjQxODQ4Mzkw.XrQLxg.KxU0heEJsQQNmsceDGmZCj80ghk')
+token = os.environ.get('BOT_TOKEN')
